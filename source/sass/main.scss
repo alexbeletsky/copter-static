@@ -1,0 +1,66 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../node_modules/hmps-animate.scss/animate";
+@import "../css/fontello/css/fontello.css";
+
+@import "buttons";
+
+body {
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+header {
+	padding-top: 16px;
+	height: 100vh;
+
+	ul.menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline;
+			font-size: 16px;
+			margin-right: 16px;
+		}
+	}
+
+	.promo {
+		max-width: 700px;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 15%;
+
+		.command {
+			margin-top: 34px;
+			padding: 24px 0;
+			font-family: Monaco;
+		}
+
+		button {
+			margin-top: 200px;
+			font-size: 22px;
+			font-weight: 300;
+		}
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 42px;
+	}
+}
+
+.info {
+	height: 100vh;
+	background-color: #000;
+}
+
+

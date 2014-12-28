@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="edit" unicode="&#xe800;" d="m846 732q66-66 66-158t-66-157l-512-514-316 0 1 318 511 511q65 65 158 65t158-65z m-558-716l478 479-158 157-474-473q34 29 78 27t75-32q32-32 32-79t-32-79l1 0z" horiz-adv-x="928" />
+<glyph glyph-name="delete" unicode="&#xe801;" d="m911 685l0-111-112 0 0-502q0-69-48-119t-119-50l-334 0q-70 0-119 50t-49 119l0 502-112 0 0 111 223 0q0 46 33 79t79 33l223 0q46 0 79-33t33-79l223 0z m-223-613l0 502-447 0 0-502q0-24 17-40t40-16l334 0q23 0 40 16t16 40z m-390 112q0 55 55 55 56 0 56-55 0-57-56-57-55 0-55 57z m0 223q0 55 55 55 56 0 56-55 0-56-56-56-55 0-55 56z m223-223q0 55 55 55 56 0 56-55 0-57-56-57-55 0-55 57z m0 223q0 55 55 55 56 0 56-55 0-56-56-56-55 0-55 56z" horiz-adv-x="928" />
+<glyph glyph-name="add" unicode="&#xe802;" d="m911 462l0-223-335 0 0-336-223 0 0 336-335 0 0 223 335 0 0 335 223 0 0-335 335 0z" horiz-adv-x="928" />
+<glyph glyph-name="calendar" unicode="&#xe803;" d="m911-97l-893 0 0 782 112 0 0-669 669 0 0 669 112 0 0-782z m-725 448l0 111 112 0 0-111-112 0z m223 0l0 111 112 0 0-111-112 0z m223 0l0 111 112 0 0-111-112 0z m-446-224l0 112 112 0 0-112-112 0z m223 0l0 112 112 0 0-112-112 0z m223 0l0 112 112 0z m-391 503l0 112q0 23 17 39t40 16 40-16 15-39l0-112q0-24-16-40t-39-16q-24 0-40 16t-17 40z m335 0l0 112q0 23 16 39t40 16q23 0 40-16t16-39l0-112q0-24-16-40t-39-16-40 16-17 40z" horiz-adv-x="928" />
+</font>
+</defs>
+</svg>
