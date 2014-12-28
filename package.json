@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "description": "shift planner office client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.2.0",
+    "hmps-animate.scss": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.0.1",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "time-grunt": "^1.0.0"
+  },
+  "author": "alexander.beletsky@gmail.com",
+  "license": "MIT"
+}
