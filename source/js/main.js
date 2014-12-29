@@ -1,0 +1,3 @@
+$(function () {
+	skrollr.init();
+});

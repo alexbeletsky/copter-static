@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title></title>
+	<title>Deployment automation and hosting for JavaScript applications.</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="images/favicon.png" />
 	<link rel="apple-touch-icon" href="images/favicon.png"/>
 
 	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:300,800' rel='stylesheet' type='text/css'>
 
 	<!--[if lt IE 9]>
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,10 +25,13 @@
 	Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
 </p>
 <![endif]-->
+	<div class="scroll" data-0="opacity: 0.7" data-400="opacity: 0"></div>
+
 	<header>
-		<div class="container">
+		<div class="container wrapper">
 			<ul class="menu pull-right">
 				<li>ABOUT</li>
+				<li>FEATURES</li>
 				<li>PRICES</li>
 				<li>BLOG</li>
 				<li>SIGNUP</li>
@@ -37,18 +41,45 @@
 				<h1>SEISMO.IO</h1>
 				<h3>Deployment automation and hosting for JavaScript applications.</h3>
 				<div class="command">$ git push production master</div>
-				<button class="btn btn-xlg btn-border-white btn-try">DEPLOY THE APP</button>
+				<button
+					class="btn btn-xlg btn-border-white btn-try"
+					data-0="border-color:rgb(255, 255, 255); color:rgb(255, 255, 255);"
+					data-400="border-color:rgb(103, 65, 114); color:rgb(103, 65, 114);"
+				>TRY OUT DEMO</button>
 			</div>
 		</div>
 	</header>
 
 	<section class="info">
+		<div class="container wrapper">
+			<h1>How it works?</h1>
+			<p class="content">Lorem ipsum dolor sit amet, erat senserit elaboraret eos in, sed te choro doming. Qui justo quando inimicus te, mentitum scaevola perpetua quo an, ad vix dolore menandri eloquentiam. No animal repudiandae neglegentur vix, te sit elit graece, prompta dolorem suavitate et vel. Sea postulant petentium ad, eum id corrumpit urbanitas. Te mei placerat accommodare, nam no primis molestiae.</p>
+		</div>
+	</section>
 
+	<section class="features">
+		<div class="container wrapper">
+			<h1>Features</h1>
+			<div class="row">
+				<div class="col-md-4">
+					Deploy your javascript applications just with `grunt seismo:production` or by pushing repo to remote git repository.
+				</div>
+				<div class="col-md-4">
+					Deployment for different environments by different strategies, e.g. "joy-app to nginx" or "nice-app to CDN".
+				</div>
+				<div class="col-md-4">
+					Enchance your Javascript applications with SEO capabilites without any line of code.
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="bottom container">
-
 	</footer>
+
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
