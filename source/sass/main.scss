@@ -96,13 +96,40 @@ header {
 	min-height: 100vh;
 	background-color: #000;
 	color: #fff;
-	padding-top: 3%;
+	padding: 5% 0;
 }
 
 .features {
-	padding-top: 3%;
-	min-height: 100vh;
+	padding: 5% 0;
 	background-color: #F7F7F7;
+
+	.feature-row {
+		padding: 26px 0;
+	}
+
+	.feature {
+		text-align: justify;
+		min-height: 120px;
+
+		.icon {
+			padding: 8px 0;
+			display: block;
+			width: 100%;
+			text-align: center;
+			font-size: 32px;
+		}
+	}
 }
 
+.slogan {
+	background-color: #000;
+	color: #fff;
+	padding: 5% 0;
 
+	button {
+		margin-top: 20px;
+		font-size: 22px;
+		font-weight: 300;
+	}
+
+}

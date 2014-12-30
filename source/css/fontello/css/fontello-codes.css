@@ -1,5 +1,4 @@
 
-.icon-edit:before { content: '\e800'; } /* '' */
-.icon-delete:before { content: '\e801'; } /* '' */
-.icon-add:before { content: '\e802'; } /* '' */
-.icon-calendar:before { content: '\e803'; } /* '' */
+.icon-deploy:before { content: '\e800'; } /* '' */
+.icon-environments:before { content: '\e801'; } /* '' */
+.icon-seo:before { content: '\e802'; } /* '' */
