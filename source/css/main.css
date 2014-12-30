@@ -8652,3 +8652,17 @@ header .promo button {
   font-size: 22px;
   font-weight: 300;
 }
+
+/* line 121, ../sass/main.scss */
+.whatis {
+  padding: 5% 0;
+  background-color: #674172;
+  color: #fff;
+}
+
+/* line 127, ../sass/main.scss */
+footer {
+  min-height: 100px;
+  background-color: #F7F7F7;
+  opacity: 0.7;
+}
