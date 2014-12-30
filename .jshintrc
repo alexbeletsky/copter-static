@@ -1,5 +1,7 @@
 {
 	"predef": [
+		"$",
+		"skrollr",
 		"after",
 		"afterEach",
 		"before",
