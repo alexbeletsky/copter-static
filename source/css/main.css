@@ -8619,29 +8619,40 @@ header .promo button {
 }
 /* line 86, ../sass/main.scss */
 .info .terminal {
+  font-size: 13px;
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  color: #d8d8d8;
   margin: 0 auto;
   padding: 20px 0;
   margin-top: 20px;
-  width: 520px;
+  width: 570px;
   height: 400px;
   text-align: left;
 }
+/* line 99, ../sass/main.scss */
+.info .terminal .cmd {
+  font-size: 13px;
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  color: #d8d8d8;
+}
 
-/* line 96, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 .features {
   padding: 5% 0;
   background-color: #F7F7F7;
 }
-/* line 100, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 .features .feature-row {
   padding: 26px 0;
 }
-/* line 104, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 .features .feature {
   text-align: justify;
   min-height: 120px;
 }
-/* line 108, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .features .feature .icon {
   padding: 8px 0;
   display: block;
@@ -8650,27 +8661,27 @@ header .promo button {
   font-size: 32px;
 }
 
-/* line 118, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 .slogan {
   background-color: #000;
   color: #fff;
   padding: 5% 0;
 }
-/* line 123, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 .slogan button {
   margin-top: 20px;
   font-size: 22px;
   font-weight: 300;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 143, ../sass/main.scss */
 .whatis {
   padding: 5% 0;
   background-color: #674172;
   color: #fff;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 footer {
   min-height: 100px;
   background-color: #F7F7F7;
